@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="sanity test suite" time-out="5000">
+
+	<test name="Sanity test 1">
+		<classes>
+			<class name="com.sample.app.tests.SuiteTimeOutTest"></class>
+		</classes>
+	</test>
+
+
+</suite>

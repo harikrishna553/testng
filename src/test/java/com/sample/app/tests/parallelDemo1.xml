@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="sanity test suite" parallel="methods" thread-count="3">
+
+	<test name="Demo test app">
+		<classes>
+			<class name="com.sample.app.tests.ParallelTestDemo1"></class>
+		</classes>
+	</test>
+
+</suite>

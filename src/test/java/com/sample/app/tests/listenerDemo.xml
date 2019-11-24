@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="sanity test suite" time-out="5000">
+
+	<listeners>
+		<listener
+			class-name="com.sample.app.tests.CustomTestListener"></listener>
+	</listeners>
+
+	<test name="Demo test app">
+		<classes>
+			<class name="com.sample.app.tests.CustomTestListenerDemo1"></class>
+		</classes>
+	</test>
+
+
+</suite>
